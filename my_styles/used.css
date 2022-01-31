@@ -1,0 +1,75 @@
+.horizontal-slider {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.horizontal-slider .cars {
+  display: block;
+  white-space: nowrap;
+  background-color: white;
+}
+
+.horizontal-slider .cars .car {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.horizontal-slider .cars .car img {
+  width: 400px;
+}
+
+.horizontal-slider .cars .car button {
+  display: block;
+}
+
+.search-div {
+  margin-top: 5px;
+  background-color: gainsboro;
+}
+
+.search-div h1 {
+  margin-top: -5px;
+}
+
+.product_search {
+  display: flex;
+  margin: 0 2%;
+}
+
+.product_search .form01 {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.search_used {
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  background-color: green;
+  font-size: 1.1em;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.search_new {
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  background-color: red;
+  font-size: 1.1em;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.search_all {
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 0);
+  font-size: 1.1em;
+  border-radius: 10px;
+}

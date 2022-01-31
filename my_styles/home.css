@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: grey;
+  overflow: hidden;
+}
+
+.header img {
+  height: 90px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* .header .active {
+  background-color: royalblue;
+  border-radius: 10px;
+} */
+
+.header a:hover {
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.dealer {
+  font-size: 4em;
+  color: red;
+  font-style: italic;
+}
+
+.header-right {
+  float: right;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 100px;
+}
+
+.header a {
+  font-size: 2em;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.previous,
+.next {
+  position: absolute;
+  top: 70%;
+  padding: 2%;
+  margin-top: -15px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.next {
+  right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  .header a:hover {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 28%;
+    height: auto;
+  }
+
+  .cars .car {
+    padding: 20px;
+    flex: 100%;
+  }
+
+  .footer {
+    padding-left: 0px;
+  }
+
+  .previous,
+  .next {
+    position: absolute;
+    top: 120%;
+  }
+}
+
+.slider img {
+  height: 600px;
+  width: 100%;
+}
+
+.mini_circle {
+  position: relative;
+  top: -25px;
+  text-align: center;
+}
+
+.focus {
+  background-color: red;
+}
+
+.mini {
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.search {
+  float: right;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 70%;
+  font-size: 3em;
+}
+
+.search #search {
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search #submit {
+  width: 15%;
+  padding: 10px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.popular_new,
+.popular_used {
+  margin: 20px;
+}
+
+.popular_new button {
+  background-color: red;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.popular_used button {
+  background-color: green;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.cars {
+  /*float: left;*/
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+.cars img {
+  width: 300px;
+  height: 200px;
+}
+
+.cars h3 {
+  align-self: end;
+}
+
+.cars .car {
+  /* float: left;
+  width: 24.2%;*/
+  flex: 1;
+  background-color: rgb(155, 155, 155);
+  padding: 2%;
+  text-align: center;
+  margin: 5px;
+}
+
+.cars .button_new button {
+  background-color: red;
+  border-radius: 10px;
+  height: 30px;
+  width: 80%;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.cars .button_used button {
+  background-color: green;
+  border-radius: 10px;
+  height: 30px;
+  width: 80%;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.cars .car a {
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  top: 10px;
+  border: 8px solid blueviolet;
+  display: flex;
+  padding-left: 100px;
+  background-color: grey;
+}
+
+.footer div {
+  flex: 1;
+  padding: 0px 0px;
+}
+
+.footer button {
+  background-color: rgba(255, 0, 234, 0.534);
+  border-radius: 10px;
+  height: 30px;
+  width: 120px;
+}
+
+.footer p {
+  position: relative;
+  font-size: 1.1em;
+  color: blue;
+  top: -10;
+}
+
+.footer a {
+  color: blue;
+  font-size: 1.2em;
+  text-decoration: none;
+}

@@ -1,0 +1,67 @@
+.outer_mission {
+  display: flex;
+  border: 8px solid blueviolet;
+  margin: 2% 0%;
+}
+
+.inner_mission {
+  flex: 1;
+  text-align: center;
+}
+.outer_mission .inner_mission img {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 2.5em;
+}
+
+.inner_mission p {
+  width: 100%;
+  margin: 20px 20px;
+  font: 1.2em sans-serif;
+  text-align: justify;
+  padding: 20px 50px;
+}
+
+.payment_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.payment_div h1 {
+  margin-top: -10px;
+}
+
+.payment_div p {
+  margin-top: -10px;
+  font-size: 1.5em;
+}
+
+#payment_form {
+  margin-top: -10px;
+}
+
+#payment_form .button {
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#submit {
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 10px;
+}
